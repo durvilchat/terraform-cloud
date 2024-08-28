@@ -5,8 +5,8 @@ provider "aws" {
 resource "aws_instance" "myec2" {
   ami           = "ami-07e35c3920b92d884"
   instance_type = "t2.micro"
-  key_name      = "devops-dirane"
+  key_name      = "devops-durvil"
   tags = {
-    Name = "ec2-dirane"
+    Name = "ec2-durvil"
   }
 }
