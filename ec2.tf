@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "myec2" {
-  ami           = "ami-0f34c5ae932e6f0e4"
+  ami           = "ami-07e35c3920b92d884"
   instance_type = "t2.micro"
   key_name      = "devops-dirane"
   tags = {
